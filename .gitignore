@@ -1,0 +1,11 @@
+.terraform/
+*.tfstate
+*.tfstate.*
+tfplan
+response.json
+modules/upload_audit/lambda/function.zip
+modules/upload_audit/lambda/package/*
+!modules/upload_audit/lambda/package/handler.py
+
+
+
